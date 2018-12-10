@@ -1,0 +1,12 @@
+{
+  "name": "simpleModelApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "sls invoke local -f hello -p test.json",
+    "deploy": "sls deploy -r eu-west-1 --stage dev --verbose",
+    "local": "serverless offline start -r eu-west-1 --stage dev"
+  },
+  "dependencies": {}
+}
